@@ -1,0 +1,11 @@
+lst=[10,2,13,14,15]
+element=2
+i=0
+is_present=False
+while(i<len(lst)):
+    curr_val=lst[i] 
+    if(curr_val==element):
+        is_present=True
+        break
+    i+=1
+print(is_present)

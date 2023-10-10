@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            height: 100vh;
+            background-color: #21D4FD;
+            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+        }
+
+        .container {
+            width: 800px;
+            height: 600px;
+        }
+        .btn{
+            background-color: #21D4FD;
+            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        }
+        .rd{
+            margin-left: 90px;
+        }
+        .rd1{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="container border-3 bg-light-subtle mt-5">
+        <h1 class="fw-bold p-3">Registration</h1>
+        <div class="row">
+            <div class="col-6">
+                <div class="fw-semibold mt-3 p-2">
+                    <label for="">Full Name</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your name" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="fw-semibold mt-3 p-2">
+                    <label for="">Username</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your username" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="fw-semibold mt-3 p-2">
+                    <label for="">Email</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your email" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="fw-semibold mt-3 p-2">
+                    <label for="">Phone Number</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your number" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="fw-semibold mt-3 p-2">
+                    <label for="">Password</label>
+                </div>
+                <div>
+                    <input type="password" placeholder="Enter your password" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="fw-semibold mt-3 p-2">
+                    <label for="">Confirm Password</label>
+                </div>
+                <div class="">
+                    <input type="password" placeholder="Confirm your password" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="fw-semibold mt-3 p-2">Gender</div>
+        <div>
+            <input type="radio" id="id_male" name="gender" class="rd1">
+            <label class="p-3" for="id_male">Male</label>
+
+            <input type="radio" id="id_female" name="gender" class="rd">
+            <label class="p-3" for="id_female">Female</label>
+
+            <input type="radio" id="id_other" name="gender" class="rd">
+            <label class="p-3" for="id_other">Prefer not to say</label>
+        </div>
+        <div>
+            <button class="form-control btn btn-outline-primary mt-5">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>

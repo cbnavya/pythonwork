@@ -1,0 +1,42 @@
+/* using properties tagname,classname,id */
+body{
+    background-color: black;
+}
+/* h1{
+    color: brown;
+} */
+#first{
+    color: wheat;
+}
+#second{
+    color: wheat;
+}
+.item{
+    color: rgb(47, 255, 234);
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+.item2{
+    color: rgb(126, 210, 30);
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    text-decoration-color: white;
+}
+.list-item{
+    color: brown;
+}
+.list-item li{
+    text-decoration: underline;
+}
+.main-head h1{
+    color: aqua;
+}
+.main-head h1:nth-child(1){
+    color: blanchedalmond;
+}
+.main-head h1:nth-child(2){
+    color: blanchedalmond;
+}
+.main-head h1:nth-child(3){
+    color: blanchedalmond;
+}
